@@ -7,7 +7,7 @@ function App() {
 
   // replace 'false' with a state variable that can be toggled between true and false
   // this will be used for the Dark Mode Toggle feature
-const [mode, setMode] = useState("false") // using a hook to set the initial state
+const [mode, setMode] = useState(false) // using a hook to set the initial state
 function handleMode (){ // function which runs when the button is clicked and changes the state using the updater funtion
   setMode(!mode)
   }

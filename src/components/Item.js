@@ -3,7 +3,7 @@ import { useState } from "react";
 
 function Item({ name, category }) {
 
-  const [cart,setCart]=useState("true")
+  const [cart,setCart]=useState(true)
 
   function addToCart(){
   setCart(!cart)
